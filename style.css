@@ -988,25 +988,11 @@ img {
     .skills-list {
         flex-direction: column;
     }
-    /* =========================================
-   Start Skills Touch Effect
-   ========================================= */
-
-   .skills:active {
-    transform: translateY(-8px);
-   }
-
-   .skill-item:hover {
+   
+      .skill-item:active {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);
-   }
-
-   .skill-item:hover i {
-    transform: translateY(-5px) scale(1.1);
-    filter: brightness(1.3) drop-shadow(0 0 10px purple);
-   }
-
-      /* End Skills Touch Effect */  
+}
 
     /* End About & Skills Responsive */
 
