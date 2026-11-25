@@ -1026,6 +1026,15 @@ img {
 
     /* End Contact Responsive */
 
+   /* Start Contact Touch Effect */
+
+   .contact-item:active {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(168, 85, 247, 0.2);
+}
+
+/* End Contact Touch Effect */
+
 }
 
 /* End Responsive Design */
