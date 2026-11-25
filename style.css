@@ -989,10 +989,14 @@ img {
         flex-direction: column;
     }
    
-      .skill-item:active {
+ /* Start Skills Touch Effect */
+
+.skill-item:active {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);
+    box-shadow: 0 15px 30px rgba(168, 85, 247, 0.2);
 }
+
+/* End Skills Touch Effect */
 
     /* End About & Skills Responsive */
 
